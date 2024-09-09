@@ -6,10 +6,6 @@ Selamat datang di proyek **Tugas Pemrograman Website 2024**! Repositori ini dibu
 
 Proyek ini berisi beberapa tugas berbasis web yang menunjukkan keterampilan dasar hingga menengah dalam HTML, CSS, dan JavaScript. Tujuan utamanya adalah membangun aplikasi web interaktif dan ramah pengguna yang menunjukkan pemahaman yang kuat tentang prinsip-prinsip pengembangan web.
 
-### 🌟 Fitur Utama:
-- **Aplikasi Konversi Nilai**: Mengubah nilai angka menjadi nilai huruf menggunakan JavaScript.
-- **Aplikasi Kalkulator Sederhana**: Melakukan operasi aritmatika dasar dengan antarmuka pengguna yang bersih dan modern.
-
 ## 🔧 Teknologi yang Digunakan
 
 - **HTML**: Untuk membuat struktur dasar halaman web.
