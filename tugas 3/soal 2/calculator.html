@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calculator-styles.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h2>Simple Calculator</h2>
+        <label for="num1">Bil 1:</label>
+        <input type="number" id="num1"><br>
+    
+        <label for="num2">Bil 2:</label>
+        <input type="number" id="num2"><br>
+    
+        <label for="result">Hasil:</label>
+        <input type="text" id="result" readonly><br>
+    
+        <button onclick="calculate('+')">+</button>
+        <button onclick="calculate('-')">-</button>
+        <button onclick="calculate('*')">x</button>
+        <button onclick="calculate('/')">/</button>
+    </div>
+    
+
+    <script src="calculator-script.js"></script>
+</body>
+</html>
