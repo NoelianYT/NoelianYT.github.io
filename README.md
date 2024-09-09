@@ -1,2 +1,27 @@
-# pemrograman-web.github.io
-Tugas Pemrograman Website 2024 Francisco Gilbert Sondakh NPM 140810230004 Kelas B
+# Tugas Pemrograman Website 2024
+
+Selamat datang di proyek **Tugas Pemrograman Website 2024**! Repositori ini dibuat sebagai bagian dari tugas pemrograman web untuk tahun akademik 2024 oleh Francisco Gilbert Sondakh, NPM 140810230004, Kelas B.
+
+## 📋 Deskripsi Proyek
+
+Proyek ini berisi beberapa tugas berbasis web yang menunjukkan keterampilan dasar hingga menengah dalam HTML, CSS, dan JavaScript. Tujuan utamanya adalah membangun aplikasi web interaktif dan ramah pengguna yang menunjukkan pemahaman yang kuat tentang prinsip-prinsip pengembangan web.
+
+### 🌟 Fitur Utama:
+- **Aplikasi Konversi Nilai**: Mengubah nilai angka menjadi nilai huruf menggunakan JavaScript.
+- **Aplikasi Kalkulator Sederhana**: Melakukan operasi aritmatika dasar dengan antarmuka pengguna yang bersih dan modern.
+
+## 🔧 Teknologi yang Digunakan
+
+- **HTML**: Untuk membuat struktur dasar halaman web.
+- **CSS**: Untuk mempercantik dan meningkatkan tampilan antarmuka pengguna.
+- **JavaScript**: Untuk menambahkan interaktivitas dan fungsionalitas dinamis pada halaman web.
+
+## 📂 Struktur Proyek
+
+```plaintext
+├── index.html              # Halaman utama untuk Konversi Nilai
+├── calculator.html         # Aplikasi Kalkulator Sederhana
+├── styles.css              # File CSS untuk styling Konversi Nilai
+├── calculator-styles.css   # File CSS untuk styling Kalkulator
+├── script.js               # Logika JavaScript untuk Konversi Nilai
+└── calculator-script.js    # Logika JavaScript untuk Kalkulator
