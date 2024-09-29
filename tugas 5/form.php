@@ -76,7 +76,7 @@ $conn->close();
         h2 {
             color: #1a73e8;
             text-align: center;
-            margin-bottom: 20px; /* Tambahkan jarak di bawah judul */
+            margin-bottom: 20px;
         }
 
         label {
