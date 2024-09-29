@@ -2,92 +2,84 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Verdana', sans-serif;
 }
 
 body {
-    background-color: #e0e0e0;
+    background-color: #e3f2fd;
     color: #2c3e50;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
-.wrapper {
-    max-width: 900px;
+.container {
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-header {
-    background-color: #2c2c2c;
-    color: #ecf0f1;
+.header {
+    background-color: #2196f3;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
-    border-bottom: 5px solid #ffee00;
+    border-radius: 12px 12px 0 0;
 }
 
-header h1 {
-    font-size: 2.4rem;
-    margin: 0;
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
-main {
-    margin-top: 40px;
-    display: grid;
-    gap: 30px;
+.main-content {
+    margin-top: 20px;
 }
 
-.profile, .assignments {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+.profile-section, .assignments-section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.profile h2, .assignments h2 {
-    font-size: 1.8rem;
+.profile-section h2, .assignments-section h2 {
+    font-size: 2rem;
     margin-bottom: 15px;
-    border-bottom: 3px solid #ffee00;
-    padding-bottom: 10px;
+    color: #2196f3;
 }
 
-.profile ul {
+.profile-info {
+    font-size: 1.1rem;
+}
+
+.assignments-list {
     list-style: none;
     padding: 0;
 }
 
-.profile li {
+.assignments-list li {
     margin-bottom: 12px;
-    font-size: 1.2rem;
 }
 
-.assignments ol {
-    padding-left: 20px;
-}
-
-.assignments li {
-    margin: 15px 0;
-    padding: 12px;
-    background-color: #f9f9f9;
-    border-left: 6px solid #000000;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-}
-
-.assignments li:hover {
-    background-color: #f0f0f0;
-}
-
-.assignments a {
+.assignments-list a {
     text-decoration: none;
-    color: #000000;
-    font-weight: bold;
+    color: #2196f3;
+    font-weight: 500;
+    transition: color 0.3s;
 }
 
-footer {
-    background-color: #000000;
-    color: #ecf0f1;
+.assignments-list a:hover {
+    color: #1976d2;
+}
+
+.footer {
+    background-color: #2196f3;
+    color: #ffffff;
     text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-    border-top: 5px solid #ffee00;
+    padding: 15px;
+    border-radius: 0 0 12px 12px;
+    margin-top: 20px;
 }
