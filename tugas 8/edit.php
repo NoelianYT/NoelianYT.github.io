@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $update_query = "UPDATE identitas SET nama='$nama', alamat='$alamat', jk='$jk', tgl_lhr='$tgl_lhr', email='$email' WHERE npm='$npm'";
     
     if (mysqli_query($conn, $update_query)) {
-        header('Location: tampil_data.php'); // Redirect to the display page after update
+        header('Location: tampil_data.php');
         exit();
     } else {
         $error = "Failed to update student data!";
